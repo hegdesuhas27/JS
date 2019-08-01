@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>multiply</title>
+        <script>
+            function multiply(){
+                var n1=document.getElementById("num1").value;
+                var n2=document.getElementById("num2").value;
+                console.log(n1);
+                document.getElementById("result").innerHTML=("result is :"+(n1*n2));
+
+            }
+      
+        </script>
+    </head>
+    <body>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="multiply()">Multiply</button>
+        <p id="result"></p>
+    </body>
+</html>
